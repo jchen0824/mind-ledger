@@ -1,0 +1,188 @@
+{
+  "85c65844-8250-4695-90ec-ab1d6ad4755c": {
+    "title": "Chat History",
+    "created_at": "2026-02-21T07:12:15.568Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "test message"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! This is a test response. The meeting knowledge base system is operational and ready to answer questions about your meetings.\n\nIs there anything specific about your meetings you'd like to know? I can help with:\n\n- Meeting summaries\n- Action items and owners\n- Knowledge points discussed\n- Details from specific meetings\n\nJust let me know how I can help!"
+      }
+    ],
+    "archived": true
+  },
+  "c20e8b4e-d4bb-4e3a-a813-6b93f8f658f8": {
+    "title": "what are my action items",
+    "created_at": "2026-02-21T07:06:21.152Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "what are my action items"
+      },
+      {
+        "role": "assistant",
+        "content": " on the meeting,\nBased here are the action items assigned during the Weekly Sync on February 17, 2026:\n\n| Task | Owner |\n|------|-------|\n| Send API change log to team | Emily |\n| Share design specs (already completed) | David |\n| Send test plan template by end of day | Rachel |\n| Document caching strategy (including cache invalidation scenarios) | Emily |\n| Review acceptance criteria by Friday | All |\n| Schedule deeper dive session on caching implementation for next week | John |\n\nIf you let me know who you are (John, Emily, David, or Rachel), I can tell you which specific action items are yours!"
+      }
+    ],
+    "archived": true
+  },
+  "4e5fae86-7b73-48da-b191-11c82807841e": {
+    "title": "New Chat",
+    "created_at": "2026-02-21T07:06:49.920Z",
+    "messages": [],
+    "archived": true
+  },
+  "ec5bfa25-70eb-4f70-89a1-de6a33044ac8": {
+    "title": "New Chat",
+    "created_at": "2026-02-21T07:06:56.575Z",
+    "messages": [],
+    "archived": true
+  },
+  "d8599435-c92b-40bf-81d5-44dde9fe0047": {
+    "title": "New Chat",
+    "created_at": "2026-02-21T07:12:15.571Z",
+    "messages": [],
+    "archived": true
+  },
+  "95e353ab-2650-419e-9fe9-e975bac9fb59": {
+    "title": "New Chat",
+    "created_at": "2026-02-21T07:12:18.960Z",
+    "messages": [],
+    "archived": true
+  },
+  "880de426-fba1-4fcb-9a18-08c733a8e2d3": {
+    "title": "New Chat",
+    "created_at": "2026-02-21T07:12:27.383Z",
+    "messages": [],
+    "archived": true
+  },
+  "b83cea14-4d00-4fa5-a2a0-498601500af9": {
+    "title": "New Chat",
+    "created_at": "2026-02-21T07:12:30.277Z",
+    "messages": [],
+    "archived": true
+  },
+  "1073a5e3-80c7-4230-828d-33b10f1ed530": {
+    "title": "New Chat",
+    "created_at": "2026-02-21T07:12:33.059Z",
+    "messages": [],
+    "archived": true
+  },
+  "73848506-5275-4601-820f-f723b6e47fdd": {
+    "title": "New Chat",
+    "created_at": "2026-02-21T07:12:39.606Z",
+    "messages": [],
+    "archived": true
+  },
+  "ae94c64f-7c41-45f7-9d68-52a6cfa4f783": {
+    "title": "New Chat",
+    "created_at": "2026-02-21T07:12:46.456Z",
+    "messages": [],
+    "archived": true
+  },
+  "87a86426-17e3-4769-a3f5-b86cc421827e": {
+    "title": "New Chat",
+    "created_at": "2026-02-21T07:12:49.363Z",
+    "messages": [],
+    "archived": true
+  },
+  "116fb424-6383-46c6-aed7-f6c0eeb6ce90": {
+    "title": "New Chat",
+    "created_at": "2026-02-21T07:12:52.165Z",
+    "messages": [],
+    "archived": true
+  },
+  "002af289-634b-42ee-b662-6819e9d4b4e5": {
+    "title": "New Chat",
+    "created_at": "2026-02-21T07:16:41.198Z",
+    "messages": [],
+    "archived": true
+  },
+  "fbe6893b-0daa-4785-98c1-1b416d8831cc": {
+    "title": "New Chat",
+    "created_at": "2026-02-21T07:16:53.605Z",
+    "messages": [],
+    "archived": true
+  },
+  "4c6ccd92-d39a-4b37-af2c-8b7e57d5982b": {
+    "title": "New Chat",
+    "created_at": "2026-02-21T07:18:14.342Z",
+    "messages": [],
+    "archived": true
+  },
+  "67932442-c8fc-427e-a215-28c6b04d2282": {
+    "title": "New Chat",
+    "created_at": "2026-02-21T07:18:42.167Z",
+    "messages": [],
+    "archived": true
+  },
+  "3b2dcc97-dcb4-4a60-8bee-37b793d44996": {
+    "title": "New Chat",
+    "created_at": "2026-02-21T07:21:22.075Z",
+    "messages": [],
+    "archived": true
+  },
+  "08bb9997-66ed-4b90-bd76-41ded55a23d3": {
+    "title": "what are my action items from ...",
+    "created_at": "2026-02-21T07:29:20.010Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "what are my action items from the meeting and learnings"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on the meeting, here are the **action items** assigned:\n\n| Task | Owner | Deadline |\n|------|-------|----------|\n| Finalize budget reallocation | Mark | End of week |\n| Create LinkedIn content calendar | Sophie | Next Monday |\n| Put together product launch campaign brief | Tom | Friday |\n| Review and approve budget and campaign | Jennifer | TBD |\n\n---\n\n**Key Learnings from the Meeting:**\n\n1. **Cost by Channel:**\n   - Paid social: $45 CAC\n   - Content marketing: $28 CAC\n   - Email: $12 CAC (but list isn't growing fast)\n\n2. **Channel Insights:**\n   - LinkedIn CPM is half of Meta's, and leads convert at a higher rate\n   - Facebook/Instagram are reaching saturation with rising CPMs\n   - Organic traffic is growing 20% month-over-month\n\n3. **Strategic Decisions:**\n   - Shifting 10% budget from paid social → LinkedIn\n   - Canceling 2 smaller regional events, keeping the March enterprise conference\n   - April product launch needs a buzz campaign starting 3 weeks prior\n\n---\n\nCould you clarify your role so I can confirm which action items are yours? (CMO, Marketing Director, Content Lead, or Growth Lead?)"
+      }
+    ]
+  },
+  "9431f85a-b97b-42c2-a882-7f88c57bcf0d": {
+    "title": "New Chat",
+    "created_at": "2026-02-21T07:29:22.723Z",
+    "messages": [],
+    "archived": true
+  },
+  "51c78f41-bde7-435c-9242-8a782bbf85a2": {
+    "title": "New Chat",
+    "created_at": "2026-02-21T07:33:23.836Z",
+    "messages": [],
+    "archived": true
+  },
+  "08186855-82aa-440c-80fb-6340d0c42dc9": {
+    "title": "New Chat",
+    "created_at": "2026-02-21T07:35:27.318Z",
+    "messages": [],
+    "archived": true
+  },
+  "dbd067ef-72fd-4c97-ab80-0ea952245627": {
+    "title": "what's my meeting on feb12",
+    "created_at": "2026-02-21T07:43:36.256Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "what's my meeting on feb12"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't see any meeting on February 12th in your meeting history. The meetings I have access to include:\n\n- **marketing-strategy-feb10** (February 10)\n- **weekly-sync-feb17** (February 17)\n- Several \"Test Meeting\" entries from February 21\n\nWould you like me to provide details about any of these meetings, or is there something else I can help you with?"
+      }
+    ]
+  },
+  "95a6bf99-0715-426f-afa9-7f53d870fe01": {
+    "title": "what's my meeting on feb10",
+    "created_at": "2026-02-21T07:44:12.981Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "what's my meeting on feb10"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your meeting records, you have a **Marketing Strategy Meeting** from February 10th, 2026.\n\nHere's a summary:\n\n**Title:** marketing-strategy-feb10\n\n**Outline:**\n- Q2 Marketing Strategy and Budget Allocation\n- Current Budget Breakdown (Paid ads: 60%, Content: 25%, Events: 15%)\n- Channel Performance Debate\n- Customer Acquisition Cost Data\n- Channel Strategy Discussion\n- Final Decisions\n- Product Launch Discussion (April launch planned)\n\n**Key Knowledge Points:**\n- Paid social CAC: $45, Content marketing CAC: $28, Email CAC: $12\n- LinkedIn CPM is half of Meta's CPM, with higher conversion rates\n- Shift 10% budget from paid social to LinkedIn\n- Enterprise conference is the team's biggest lead generator\n- Product launch in April requires buzz campaign starting 3 weeks prior\n\n**Action Items:**\n| Task | Owner |\n|------|-------|\n| Finalize budget reallocation | Mark (deadline: End of week) |\n| Create LinkedIn content calendar | Sophie (deadline: Next Monday) |\n| Put together product launch campaign brief | Tom (deadline: Friday) |\n| Review and approve budget and campaign | Jennifer |\n\nIs there anything else you'd like to know about this meeting?"
+      }
+    ]
+  }
+}

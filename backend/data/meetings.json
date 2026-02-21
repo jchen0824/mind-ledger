@@ -1,0 +1,252 @@
+[
+  {
+    "id": "e32df707-963a-49a8-aa93-89c3a14499ef",
+    "title": "Test Meeting",
+    "content": "This is a test meeting. Discussion about project timeline. Action item: Bob to finish the report by Friday. Key point: Deadline is next week.",
+    "summary": {
+      "outline": [
+        "Mock Outline 1: Introduction",
+        "Mock Outline 2: Main Discussion"
+      ],
+      "action_items": [
+        {
+          "task": "Configure API Key",
+          "owner": "Developer"
+        }
+      ],
+      "knowledge_points": [
+        "MiniMax API Key is required for real summaries."
+      ]
+    },
+    "created_at": "2026-02-21T05:55:44.134Z"
+  },
+  {
+    "id": "a5ac24e3-aca3-4036-aa2d-822dd05a54c8",
+    "title": "Test Meeting",
+    "content": "This is a test meeting. Discussion about project timeline. Action item: Bob to finish the report by Friday. Key point: Deadline is next week.",
+    "summary": {
+      "outline": [
+        "Summary failed"
+      ],
+      "action_items": [],
+      "knowledge_points": []
+    },
+    "created_at": "2026-02-21T06:19:21.733Z"
+  },
+  {
+    "id": "0becbe3a-2958-479f-9f72-68904dc0302b",
+    "title": "Test Meeting",
+    "content": "This is a test meeting. Discussion about project timeline. Action item: Bob to finish the report by Friday. Key point: Deadline is next week.",
+    "summary": {
+      "outline": [
+        "Summary failed"
+      ],
+      "action_items": [],
+      "knowledge_points": []
+    },
+    "created_at": "2026-02-21T06:20:05.751Z"
+  },
+  {
+    "id": "7a2a573f-33cf-4a83-8572-cc18d00fa202",
+    "title": "Test Meeting",
+    "content": "This is a test meeting. Discussion about project timeline. Action item: Bob to finish the report by Friday. Key point: Deadline is next week.",
+    "summary": {
+      "outline": [
+        "Summary failed"
+      ],
+      "action_items": [],
+      "knowledge_points": []
+    },
+    "created_at": "2026-02-21T06:20:52.533Z"
+  },
+  {
+    "id": "49c9ebf6-01bc-45a8-9f5f-7018a7318c79",
+    "title": "Test Meeting",
+    "content": "This is a test meeting. Discussion about project timeline. Action item: Bob to finish the report by Friday. Key point: Deadline is next week.",
+    "summary": {
+      "outline": [
+        "Summary failed"
+      ],
+      "action_items": [],
+      "knowledge_points": []
+    },
+    "created_at": "2026-02-21T06:24:57.239Z"
+  },
+  {
+    "id": "d380165e-bf0e-4533-a9e6-7b36a80007f6",
+    "title": "Test Meeting",
+    "content": "This is a test meeting. Discussion about project timeline. Action item: Bob to finish the report by Friday. Key point: Deadline is next week.",
+    "summary": {
+      "outline": [
+        "Test meeting",
+        "Discussion about project timeline",
+        "Action item: Bob to finish the report by Friday",
+        "Key point: Deadline is next week"
+      ],
+      "action_items": [
+        {
+          "task": "finish the report",
+          "owner": "Bob"
+        }
+      ],
+      "knowledge_points": [
+        "Deadline is next week"
+      ]
+    },
+    "created_at": "2026-02-21T06:25:47.543Z"
+  },
+  {
+    "id": "b840c442-3b9a-459a-a2d6-e2f789eef12c",
+    "title": "Test Meeting",
+    "content": "This is a test meeting. Discussion about project timeline. Action item: Bob to finish the report by Friday. Key point: Deadline is next week.",
+    "summary": {
+      "outline": [
+        "Meeting: This is a test meeting",
+        "Discussion: Discussion about project timeline"
+      ],
+      "action_items": [
+        {
+          "task": "finish the report by Friday",
+          "owner": "Bob"
+        }
+      ],
+      "knowledge_points": [
+        "Deadline is next week"
+      ]
+    },
+    "created_at": "2026-02-21T06:35:44.458Z"
+  },
+  {
+    "id": "933c1c81-594d-4307-ad46-fd84e53e6004",
+    "title": "weekly-sync-feb17",
+    "content": "# Team Weekly Sync - February 17, 2026\n\n## Attendees\n- John (Product Manager)\n- Emily (Engineering Lead)\n- David (Designer)\n- Rachel (QA Lead)\n\n---\n\n[00:00] **John**: Alright everyone, let's start our weekly sync. How's everyone doing today?\n\n[00:15] **Emily**: I'm good. We had a busy week with the backend migration.\n\n[00:22] **John**: Right, Emily, can you give us an update on the migration?\n\n[00:28] **Emily**: Sure. We finished moving 80% of user data to the new cluster. The remaining 20% will be done by Wednesday. We've also implemented automatic failover, so if the primary goes down, it switches to the backup within 30 seconds.\n\n[00:45] **David**: That's great progress. How's the performance looking?\n\n[00:50] **Emily**: Actually, latency has improved by about 40% on average. Users in Europe are seeing response times around 120ms now, down from 200ms before.\n\n[01:05] **Rachel**: That's awesome. I've been monitoring the error rates during the migration. We've seen a slight increase in timeout errors - about 2% - but nothing critical. Most of those are retry-able.\n\n[01:18] **John**: Good to hear. David, what about the new dashboard design?\n\n[01:24] **David**: I've completed the wireframes. The new layout puts the key metrics front and center. I'm now working on the high-fidelity mockups. Should have those ready for review by Thursday.\n\n[01:38] **John**: Perfect. Are we still on track for the beta launch on March 1st?\n\n[01:44] **Emily**: I think so. The core features are done. We're mainly working on bug fixes and performance tuning now.\n\n[01:52] **Rachel**: I've started drafting the test cases for the beta. I'll need everyone to review the acceptance criteria by Friday so we can finalize the test plan.\n\n[02:05] **John**: Absolutely. Emily, can you send around the API change log? David, please share the design specs. Rachel, send the test plan template.\n\n[02:15] **Emily**: Will do.\n\n[02:18] **David**: Already in the shared folder.\n\n[02:22] **Rachel**: I'll have it out by end of day.\n\n[02:28] **John**: Great. Any blockers we need to discuss?\n\n[02:32] **Emily**: Actually, yes. We need to decide on the caching strategy. The current Redis setup is working, but I'm not sure if we should scale it vertically or horizontally.\n\n[02:42] **John**: What's the difference in effort?\n\n[02:46] **Emily**: Vertical scaling is easier - just add more memory to the instance. Horizontal would require sharding, which is more complex but better for long-term. I'd recommend going horizontal since we're expecting significant growth.\n\n[02:58] **David**: I agree. We should plan for scale now rather than deal with it later.\n\n[03:05] **John**: Rachel, any concerns from QA perspective?\n\n[03:10] **Rachel**: The main thing is we need clear documentation on the new caching behavior so we can test it properly. Especially around cache invalidation scenarios.\n\n[03:20] **Emily**: I'll write up a detailed doc on that.\n\n[03:25] **John**: Okay, so decision made: we go with horizontal scaling for Redis. Emily to document the caching strategy. Let's also schedule a deeper dive on the caching implementation next week.\n\n[03:35] **David**: Sounds good.\n\n[03:38] **Rachel**: Agreed.\n\n[03:42] **John**: Anything else? If not, let's wrap up. Remember, design review Thursday, test plan review Friday. Thanks everyone!\n\n[03:52] **All**: Thanks, John. Have a good week!\n",
+    "summary": {
+      "outline": [
+        "Team Weekly Sync - February 17, 2026",
+        "Attendees: John (PM), Emily (Engineering Lead), David (Designer), Rachel (QA Lead)",
+        "Backend Migration Update",
+        "80% user data migrated to new cluster, remaining 20% by Wednesday",
+        "Automatic failover implemented (30-second switch to backup)",
+        "Performance improvements: 40% latency reduction, European users at 120ms (down from 200ms)",
+        "Error monitoring: 2% increase in timeout errors (non-critical, retry-able)",
+        "Dashboard Design Update",
+        "Wireframes completed, high-fidelity mockups in progress",
+        "Target: ready for review by Thursday",
+        "Beta Launch Status (March 1st)",
+        "Core features complete, focus on bug fixes and performance tuning",
+        "Test cases drafting in progress, acceptance criteria review needed by Friday",
+        "Action Items Distribution",
+        "Emily: send API change log",
+        "David: share design specs (already in shared folder)",
+        "Rachel: send test plan template by end of day",
+        "Blocker Discussion: Caching Strategy",
+        "Decision made: horizontal scaling for Redis (better for long-term growth)",
+        "Emily to document caching strategy with details on cache invalidation",
+        "Schedule deeper dive on caching implementation next week",
+        "QA Requirements: documentation on new caching behavior for proper testing",
+        "Closing: design review Thursday, test plan review Friday"
+      ],
+      "action_items": [
+        {
+          "task": "Send API change log to team",
+          "owner": "Emily"
+        },
+        {
+          "task": "Share design specs (already completed)",
+          "owner": "David"
+        },
+        {
+          "task": "Send test plan template by end of day",
+          "owner": "Rachel"
+        },
+        {
+          "task": "Document caching strategy (including cache invalidation scenarios)",
+          "owner": "Emily"
+        },
+        {
+          "task": "Review acceptance criteria by Friday",
+          "owner": "All"
+        },
+        {
+          "task": "Schedule deeper dive session on caching implementation for next week",
+          "owner": "John"
+        }
+      ],
+      "knowledge_points": [
+        "Backend migration 80% complete, remaining 20% due by Wednesday",
+        "Automatic failover reduces downtime to 30 seconds",
+        "Latency improved 40% overall, European users see 120ms response times",
+        "Timeout errors increased by 2% but are non-critical and retry-able",
+        "Horizontal Redis scaling chosen for long-term scalability despite higher complexity",
+        "QA needs clear caching behavior documentation, especially for invalidation scenarios",
+        "Beta launch targeted for March 1st with core features complete"
+      ]
+    },
+    "created_at": "2026-02-21T06:41:08.443Z"
+  },
+  {
+    "id": "5ae77eca-3106-43f0-8618-93b5e7bf8a0e",
+    "title": "marketing-strategy-feb10",
+    "content": "# Marketing Strategy Meeting - February 10, 2026\n\n## Participants\n- Jennifer (CMO)\n- Mark (Marketing Director)\n- Sophie (Content Lead)\n- Tom (Growth Lead)\n\n---\n\n[00:00] **Jennifer**: Good morning everyone. Thanks for making time for this. Today we're going to discuss our Q2 marketing strategy and budget allocation.\n\n[00:15] **Mark**: I've prepared a deck with some initial proposals. Let me share my screen.\n\n[00:22] **Jennifer**: Go ahead.\n\n[00:25] **Mark**: So looking at our current numbers, we're spending about 60% of our budget on paid ads, 25% on content, and 15% on events. I think we need to rebalance this.\n\n[00:38] **Sophie**: I'm biased, but I think content deserves more. Our organic traffic has been growing 20% month over month, and the quality of leads from blog posts is much better than paid.\n\n[00:48] **Tom**: I see it differently. Our paid campaigns have a clear ROI. We can measure exactly how much revenue each dollar generates. Content is harder to measure.\n\n[00:58] **Sophie**: That's a fair point, but we're also building a brand asset that compounds over time. It's not just about immediate conversion.\n\n[01:10] **Jennifer**: Both valid points. Mark, what does the data say about our customer acquisition cost by channel?\n\n[01:18] **Mark**: So paid social is around $45 per acquisition. Content marketing is about $28. Email is the cheapest at $12, but our list isn't growing fast enough.\n\n[01:28] **Tom**: Right, that's why I'm pushing for more investment in paid. We can scale what works.\n\n[01:35] **Sophie**: But we're reaching saturation on Facebook and Instagram. The CPMs keep going up. We should invest in new channels like LinkedIn for B2B or TikTok for awareness.\n\n[01:48] **Mark**: Sophie has a point. Our CPM on LinkedIn is half of what we pay on Meta. And the leads from LinkedIn convert at a higher rate.\n\n[01:58] **Jennifer**: Okay, here's what I'm thinking. Let's shift 10% of our budget from paid social to LinkedIn. Sophie, can you create a content calendar for LinkedIn?\n\n[02:08] **Sophie**: Definitely. I can repurpose some of our blog content and create native posts.\n\n[02:15] **Tom**: I'm concerned about bandwidth. Who will manage the LinkedIn presence?\n\n[02:22] **Sophie**: I can handle it with my team. We might need to hire a contractor for additional support, but let's see how it goes for a month first.\n\n[02:32] **Jennifer**: Sounds reasonable. Mark, what about events? We had three conferences planned.\n\n[02:40] **Mark**: I recommend we keep the enterprise conference in March - that's our biggest lead generator. But let's cancel the two smaller regional events. We can reinvest that money into digital.\n\n[02:52] **Jennifer**: Any objections?\n\n[03:00] **Tom**: No, that makes sense. Those events were expensive for the ROI we were getting.\n\n[03:08] **Sophie**: Agreed.\n\n[03:10] **Jennifer**: Great. So final proposal: reduce paid social by 10%, reallocate to LinkedIn, cancel two regional events. Content gets a slight bump. Let me know if I missed anything.\n\n[03:22] **Mark**: One more thing - we need to talk about the product launch in April. We should start the buzz campaign three weeks before.\n\n[03:30] **Jennifer**: Good call. Tom, can you put together a campaign brief?\n\n[03:36] **Tom**: Will do. I'll have it ready by Friday.\n\n[03:42] **Jennifer**: Perfect. Let's summarize action items. Mark - finalize budget reallocation by end of week. Sophie - LinkedIn content calendar by next Monday. Tom - campaign brief by Friday. Jennifer - review and approve. Any questions?\n\n[03:55] **Mark**: No, looks good.\n\n[03:58] **Sophie**: All clear.\n\n[04:02] **Tom**: Got it.\n\n[04:05] **Jennifer**: Excellent meeting everyone. Let's reconvene next week to review progress.\n",
+    "summary": {
+      "outline": [
+        "Q2 Marketing Strategy and Budget Allocation",
+        "Current Budget Breakdown",
+        "- Paid ads: 60%",
+        "- Content: 25%",
+        "- Events: 15%",
+        "Channel Performance Debate",
+        "- Paid campaigns: clear ROI, measurable revenue",
+        "- Content marketing: builds compounding brand asset, lower CAC",
+        "Customer Acquisition Cost Data",
+        "- Paid social: $45 per acquisition",
+        "- Content marketing: $28 per acquisition",
+        "- Email: $12 per acquisition (but list growth slow)",
+        "Channel Strategy Discussion",
+        "- Facebook/Instagram: reaching saturation, CPMs increasing",
+        "- LinkedIn: half the CPM of Meta, higher conversion rate",
+        "- Recommendation: invest in LinkedIn for B2B, TikTok for awareness",
+        "Final Decisions",
+        "- Shift 10% budget from paid social to LinkedIn",
+        "- Cancel two smaller regional events, keep enterprise conference (March)",
+        "- Slight budget increase for content",
+        "Product Launch Discussion",
+        "- April launch planned",
+        "- Need buzz campaign three weeks before launch"
+      ],
+      "action_items": [
+        {
+          "task": "Finalize budget reallocation",
+          "owner": "Mark",
+          "deadline": "End of week"
+        },
+        {
+          "task": "Create LinkedIn content calendar",
+          "owner": "Sophie",
+          "deadline": "Next Monday"
+        },
+        {
+          "task": "Put together product launch campaign brief",
+          "owner": "Tom",
+          "deadline": "Friday"
+        },
+        {
+          "task": "Review and approve budget and campaign",
+          "owner": "Jennifer",
+          "deadline": null
+        }
+      ],
+      "knowledge_points": [
+        "Paid social CAC: $45, Content marketing CAC: $28, Email CAC: $12",
+        "LinkedIn CPM is half of Meta's CPM",
+        "LinkedIn leads convert at higher rate than other paid social channels",
+        "Organic traffic growing 20% month over month",
+        "Enterprise conference is the team's biggest lead generator",
+        "Facebook and Instagram ads reaching saturation with increasing CPMs",
+        "Product launch in April requires buzz campaign starting 3 weeks prior",
+        "Sophie can repurpose blog content for LinkedIn native posts"
+      ]
+    },
+    "created_at": "2026-02-21T07:31:45.663Z"
+  }
+]
