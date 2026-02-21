@@ -248,5 +248,178 @@
       ]
     },
     "created_at": "2026-02-21T07:31:45.663Z"
+  },
+  {
+    "id": "01f18e9b-4ade-438a-9fba-2b52af014f1d",
+    "title": "client-demo-jan28",
+    "content": "# Client Demo - Acme Corp - January 28, 2026\n\n## Present\n- Kevin (Sales)\n- Nina (Solutions Engineer)\n- Robert (Acme VP of Engineering)\n- Patricia (Acme Product Manager)\n\n---\n\n[00:00] **Kevin**: Hi everyone, thank you for taking the time today. I'll kick things off and then Nina will walk you through the demo.\n\n[00:10] **Robert**: Thanks for scheduling this. We're evaluating three vendors, so we have about an hour.\n\n[00:18] **Kevin**: Perfect. Let's make the most of it. Before we start, can you give us a quick refresher on what you're looking to solve?\n\n[00:25] **Robert**: We're dealing with massive data silos. Our marketing team uses one platform, sales uses another, and customer support has their own system. We need everything connected.\n\n[00:35] **Patricia**: Specifically, we want to understand the customer journey from first touch to renewal. Right now, we can't track that reliably.\n\n[00:45] **Kevin**: That makes sense. Nina, do you want to start the demo?\n\n[00:52] **Nina**: Absolutely. Let me share my screen. Here's our dashboard view. This is what your team would see after implementation. The first thing you'll notice is the unified customer profile.\n\n[01:05] **Nina**: Every interaction across all touchpoints is aggregated here. You can see emails, calls, support tickets, usage data - all in one place.\n\n[01:15] **Patricia**: That's clean. How does the data get unified?\n\n[01:22] **Nina**: We use a combination of deterministic matching and probabilistic modeling. For email addresses and phone numbers, we can match with 99% accuracy. For anonymous web visitors, we use behavioral signals to create probabilistic profiles.\n\n[01:35] **Robert**: What about data privacy? GDPR, CCPA compliance?\n\n[01:42] **Nina**: Great question. We have built-in consent management. You can configure data retention policies per region. There's also a data deletion API that integrates with right-to-be-forgotten requests.\n\n[01:55] **Patricia**: How long does implementation typically take?\n\n[02:02] **Nina**: For a company your size, we'd typically go live in 8 to 12 weeks. Phase one is data integration - that's about 4 weeks. Phase two is dashboard customization - another 4 weeks. Then testing and rollout.\n\n[02:15] **Kevin**: I should mention we have a dedicated success team that stays with you through implementation and beyond.\n\n[02:22] **Robert**: What about API access? We want to build custom integrations.\n\n[02:30] **Nina**: Full API access is included in the enterprise plan. We have REST and GraphQL APIs. Here's a quick example - this is a real-time webhook that pushes data to your internal systems.\n\n[02:42] **Nina**: We also have a marketplace with over 200 pre-built connectors. Salesforce, HubSpot, Zendesk, ServiceNow - most major platforms are covered.\n\n[02:55] **Patricia**: What about reporting? We need executive dashboards.\n\n[03:05] **Nina**: We have a drag-and-drop report builder. You can create custom visualizations. There's also a scheduled email feature - reports can be sent automatically to stakeholders every week or month.\n\n[03:18] **Robert**: Can you show us the mobile experience?\n\n[03:22] **Nina**: Of course. Here's our iOS app. It has offline support, which is important for our sales team. They can view customer profiles and log activities even without internet. It syncs when they're back online.\n\n[03:35] **Patricia**: The interface looks intuitive. One concern I have is user training. Our team is not very technical.\n\n[03:45] **Nina**: We have extensive onboarding support. There's an in-app guided tour for new users. We also offer training sessions - both live and recorded. Plus, our support team is available 24/7.\n\n[03:58] **Kevin**: We've had clients as large as 50,000 employees successfully onboard. The learning curve is typically about two weeks for average users.\n\n[04:10] **Robert**: What's the pricing model?\n\n[04:15] **Kevin**: It's based on the number of users and data volume. For your use case, we're looking at around $150,000 annually. That includes unlimited API calls and 24/7 support.\n\n[04:25] **Robert**: That's helpful. We have a few more vendors to evaluate. What's your timeline?\n\n[04:32] **Patricia**: We're hoping to make a decision by end of Q1. So roughly 60 days.\n\n[04:40] **Kevin**: Plenty of time. We can do a technical deep dive next week if you want. Nina can also prepare a proof of concept with some sample data.\n\n[04:50] **Robert**: That would be helpful.\n\n[04:55] **Patricia**: One more question - what happens if you get acquired or go out of business? We need to know our data is safe.\n\n[05:05] **Nina**: Totally reasonable concern. We have a data portability guarantee. You can export all your data at any time in standard formats. We also have a financial stability report we can share - we're well-funded with Series C funding.\n\n[05:18] **Kevin**: And we can include data escrow in the contract as an additional safeguard.\n\n[05:25] **Robert**: Good to know. I think we have what we need for today. Thanks Nina, Kevin.\n\n[05:32] **Kevin**: Thank you both for your time. I'll follow up tomorrow with the technical deep dive scheduling. Have a great day!\n\n[05:40] **Patricia**: Thanks, you too.\n\n[05:43] **Robert**: Talk soon.\n",
+    "summary": {
+      "outline": [
+        "Introduction",
+        "  - Kevin opens meeting, introduces team",
+        "  - Robert mentions they are evaluating 3 vendors with about an hour",
+        "Problem Discussion",
+        "  - Robert explains data silos issue: marketing, sales, customer support use different platforms",
+        "  - Patricia wants to track customer journey from first touch to renewal",
+        "Product Demo - Unified Customer Profile",
+        "  - Nina demonstrates dashboard with unified customer profile",
+        "  - Aggregates emails, calls, support tickets, usage data",
+        "Data Unification Technology",
+        "  - Deterministic matching for email/phone (99% accuracy)",
+        "  - Probabilistic modeling for anonymous web visitors",
+        "Privacy and Compliance",
+        "  - GDPR and CCPA compliance",
+        "  - Built-in consent management",
+        "  - Configurable data retention policies per region",
+        "  - Data deletion API for right-to-be-forgotten requests",
+        "Implementation Timeline",
+        "  - 8-12 weeks for company their size",
+        "  - Phase 1: Data integration (4 weeks)",
+        "  - Phase 2: Dashboard customization (4 weeks)",
+        "  - Phase 3: Testing and rollout",
+        "  - Dedicated success team through implementation",
+        "API and Integrations",
+        "  - Full API access in enterprise plan (REST and GraphQL)",
+        "  - Real-time webhook for pushing data to internal systems",
+        "  - Marketplace with 200+ pre-built connectors (Salesforce, HubSpot, Zendesk, ServiceNow)",
+        "Reporting and Dashboards",
+        "  - Drag-and-drop report builder",
+        "  - Custom visualizations",
+        "  - Scheduled email reports (weekly/monthly)",
+        "Mobile Experience",
+        "  - iOS app with offline support",
+        "  - View customer profiles and log activities without internet",
+        "  - Auto-sync when back online",
+        "User Training and Onboarding",
+        "  - In-app guided tour for new users",
+        "  - Live and recorded training sessions",
+        "  - 24/7 support team",
+        "  - Clients with 50,000+ employees successfully onboarded",
+        "  - Learning curve typically ~2 weeks for average users",
+        "Pricing Discussion",
+        "  - Based on number of users and data volume",
+        "  - Approximately $150,000 annually",
+        "  - Includes unlimited API calls and 24/7 support",
+        "Decision Timeline and Next Steps",
+        "  - Acme aims to decide by end of Q1 (~60 days)",
+        "  - Kevin proposes technical deep dive for next week",
+        "  - Nina to prepare proof of concept with sample data",
+        "Closing Discussion",
+        "  - Patricia asks about data safety if vendor is acquired/goes out of business",
+        "  - Nina explains data portability guarantee (export in standard formats)",
+        "  - Financial stability: Series C funding, well-funded",
+        "  - Kevin offers data escrow in contract as additional safeguard",
+        "  - Robert expresses they have what they need for today"
+      ],
+      "action_items": [
+        {
+          "task": "Schedule technical deep dive for next week",
+          "owner": "Kevin"
+        },
+        {
+          "task": "Prepare proof of concept with sample data",
+          "owner": "Nina"
+        },
+        {
+          "task": "Follow up tomorrow with technical deep dive scheduling",
+          "owner": "Kevin"
+        }
+      ],
+      "knowledge_points": [
+        "Acme Corp has data silos across marketing, sales, and customer support platforms",
+        "Solution provides unified customer profile tracking entire customer journey",
+        "Data matching uses deterministic matching (99% accuracy for emails/phones) and probabilistic modeling for anonymous visitors",
+        "Platform is GDPR and CCPA compliant with built-in consent management and configurable data retention",
+        "Implementation timeline is 8-12 weeks: 4 weeks data integration, 4 weeks dashboard customization, plus testing",
+        "Enterprise plan includes full REST and GraphQL API access with 200+ pre-built connectors",
+        "Reporting includes drag-and-drop builder with scheduled email automation",
+        "iOS mobile app supports offline viewing with auto-sync",
+        "User onboarding takes ~2 weeks for average users; platform has in-app tours, live/recorded training, 24/7 support",
+        "Pricing is ~$150,000 annually based on users and data volume, includes unlimited API calls and 24/7 support",
+        "Acme plans to make vendor decision by end of Q1 (approximately 60 days)",
+        "Data portability guarantee allows export in standard formats; vendor is Series C funded with option for data escrow"
+      ],
+      "metadata": {
+        "meeting_date": "2026-01-28",
+        "client": "Acme Corp",
+        "attendees": [
+          "Kevin (Sales)",
+          "Nina (Solutions Engineer)",
+          "Robert (Acme VP of Engineering)",
+          "Patricia (Acme Product Manager)"
+        ]
+      }
+    },
+    "created_at": "2026-02-21T08:04:15.131Z"
+  },
+  {
+    "id": "f31327fc-43bf-4547-a460-6c5b3a82aa30",
+    "title": "auth-architecture-feb18",
+    "content": "# Technical Architecture Review - February 18, 2026\n\n## Present\n- Alex (Principal Engineer)\n- Maria (Senior Backend Engineer)\n- James (DevOps Engineer)\n- Linda (Security Engineer)\n\n---\n\n[00:00] **Alex**: Thanks for joining. Today we need to make a decision on our authentication system. We've outgrown our current JWT implementation and need to discuss options.\n\n[00:12] **Maria**: Let me walk through the current state first. We have about 2 million daily active users. Our current JWT tokens expire after 24 hours. We're seeing some issues with token refresh on mobile - about 5% of users experience stuck sessions.\n\n[00:25] **James**: From the infrastructure side, the JWT validation is adding latency. We're doing 50,000 validations per minute at peak. Each validation takes about 15ms because we're hitting the database to verify the token hasn't been revoked.\n\n[00:38] **Linda**: That brings up security concerns. If you're doing database lookups for every token validation, you're creating a bottleneck that could be exploited. We should be using a distributed cache.\n\n[00:48] **Maria**: That's exactly why we're here. We're considering three options. Option one is to implement Redis caching with a shorter TTL. Option two is to switch to opaque tokens with a session database. Option three is to move to OAuth 2.0 with a third-party identity provider.\n\n[01:02] **Alex**: Let's discuss pros and cons. Maria, start with option one.\n\n[01:08] **Maria**: Option one is the quickest to implement. We keep JWTs but add Redis caching. Tokens would still be self-contained, so no database hit for valid cached tokens. We'd reduce latency to under 5ms. Downside is we still have the complexity of token refresh on the client side.\n\n[01:22] **James**: We can definitely support option one from infrastructure. We'd need to provision a Redis cluster with high availability. I can have that ready in two weeks.\n\n[01:32] **Linda**: I'm okay with option one from a security perspective, provided we implement proper key rotation. We need to make sure we have a process to rotate the signing keys without downtime.\n\n[01:44] **Alex**: What's option two?\n\n[01:48] **Maria**: Option two is to use opaque tokens stored in a database. This gives us immediate revocation capability - no waiting for cache to expire. The downside is every API call hits the database, so we'd need read replicas and possibly a caching layer anyway. It's more complex.\n\n[01:58] **James**: That's a lot more work on our end. We're looking at three to four weeks minimum for implementation, plus ongoing maintenance.\n\n[02:08] **Alex**: And option three?\n\n[02:12] **Maria**: Option three is to outsource auth entirely. Use Auth0 or Okta. Pros: no maintenance, enterprise features built in, SOC2 compliance ready. Cons: costs money, we're giving up control, and migration would take time.\n\n[02:25] **Linda**: From security standpoint, option three is the strongest. They have dedicated security teams and stay up to date with latest standards. But we need to factor in the cost and dependency.\n\n[02:38] **Alex**: Let's talk numbers. What's the cost comparison?\n\n[02:44] **Maria**: Option one costs us nothing extra - just Redis which we already have. Option two would require additional database infrastructure, maybe $500 per month. Option three would be around $2,000 per month for our user base.\n\n[02:56] **James**: My vote is for option one. Fastest to implement, solves the immediate problem, and we can always migrate to option three later if needed.\n\n[03:05] **Linda**: Agreed. Let's start simple and add complexity when we need it.\n\n[03:12] **Alex**: Maria, what do you think?\n\n[03:15] **Maria**: I'm comfortable with option one. The mobile session issues should be solvable with proper token refresh logic on the client side.\n\n[03:24] **Alex**: Okay, we have consensus. Option one it is. Let me summarize the action items.\n\n[03:30] **Alex**: James - provision Redis cluster with 99.99% SLA by end of week two. Maria - implement token caching logic and handle key rotation. Linda - update security documentation and run a penetration test after deployment. Any questions?\n\n[03:45] **James**: One thing - we need to decide on cache TTL. What's your recommendation?\n\n[03:52] **Maria**: I was thinking 15 minutes for the cache. That gives us a good balance between performance and security.\n\n[03:58] **Linda**: 15 minutes is reasonable. Make sure to implement cache invalidation for the revoke endpoint though.\n\n[04:05] **Maria**: Absolutely, I'll include that.\n\n[04:10] **Alex**: Great. Let's also schedule a follow-up in two weeks to review progress. Thanks everyone.\n",
+    "summary": {
+      "outline": [
+        "Technical Architecture Review - February 18, 2026",
+        "Present: Alex (Principal Engineer), Maria (Senior Backend Engineer), James (DevOps Engineer), Linda (Security Engineer)",
+        "Current State Discussion",
+        "JWT Implementation Issues",
+        "2 million daily active users with 24-hour token expiry",
+        "5% of mobile users experiencing stuck sessions",
+        "50,000 validations per minute at peak",
+        "15ms latency per validation due to database lookups",
+        "Security Concerns",
+        "Database lookups for every token validation create exploitable bottleneck",
+        "Three Options Discussed",
+        "Option 1: Redis Caching with Shorter TTL",
+        "Quickest to implement, maintains self-contained JWTs",
+        "Reduces latency to under 5ms, costs nothing extra",
+        "Downside: still requires client-side token refresh logic",
+        "Option 2: Opaque Tokens with Session Database",
+        "Provides immediate revocation capability",
+        "Every API call hits database - requires read replicas",
+        "More complex, 3-4 weeks implementation time",
+        "Additional cost ~$500/month",
+        "Option 3: OAuth 2.0 with Third-Party Identity Provider",
+        "No maintenance, enterprise features, SOC2 compliant",
+        "Costs ~$2,000/month, gives up control, migration takes time",
+        "Security standpoint: strongest option",
+        "Decision and Consensus",
+        "Selected Option 1: Redis caching approach",
+        "Agreed by all team members",
+        "Implementation Details",
+        "Cache TTL set to 15 minutes",
+        "Need cache invalidation for revoke endpoint",
+        "Key rotation required without downtime",
+        "Follow-up meeting scheduled in two weeks"
+      ],
+      "action_items": [
+        {
+          "task": "Provision Redis cluster with 99.99% SLA",
+          "owner": "James",
+          "deadline": "End of week two"
+        },
+        {
+          "task": "Implement token caching logic and handle key rotation",
+          "owner": "Maria"
+        },
+        {
+          "task": "Update security documentation",
+          "owner": "Linda"
+        },
+        {
+          "task": "Run penetration test after deployment",
+          "owner": "Linda"
+        }
+      ],
+      "knowledge_points": [
+        "Redis caching reduces JWT validation latency from 15ms to under 5ms",
+        "15-minute cache TTL provides balance between performance and security",
+        "Cache invalidation required for token revocation endpoint",
+        "Key rotation must be implemented without downtime",
+        "Option 1 allows future migration to OAuth 2.0 provider if needed",
+        "Database lookups for token validation create security vulnerabilities",
+        "Third-party auth providers (Auth0/Okta) offer strongest security but add cost and dependency"
+      ]
+    },
+    "created_at": "2026-02-21T09:34:53.530Z"
   }
 ]

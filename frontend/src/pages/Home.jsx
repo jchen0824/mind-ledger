@@ -13,10 +13,10 @@ export default function Home() {
 
   const fetchMeetings = async () => {
     try {
-      const response = await axios.get('http://localhost:3000/api/meetings');
-      setMeetings(response.data);
-      setLoading(false);
-    } catch (err) {
+        const response = await axios.get('/api/meetings');
+        setMeetings(response.data);
+        setLoading(false);
+      } catch (err) {
       console.error('Failed to fetch meetings:', err);
       setError('Failed to load meetings. Is the backend running?');
       setLoading(false);

@@ -22,7 +22,7 @@ export default function Chat() {
 
   const fetchSessions = async () => {
     try {
-      const response = await axios.get(`http://localhost:3000/api/chat/sessions?archived=${viewArchived}`);
+      const response = await axios.get(`/api/chat/sessions?archived=${viewArchived}`);
       setSessions(response.data);
     } catch (err) {
       console.error('Failed to fetch sessions:', err);
@@ -36,7 +36,7 @@ export default function Chat() {
   const archiveSession = async (id, e) => {
     e.stopPropagation();
     try {
-      await axios.patch(`http://localhost:3000/api/chat/sessions/${id}`, { archived: !viewArchived });
+      await axios.patch(`/api/chat/sessions/${id}`, { archived: !viewArchived });
       
       if (sessionId === id && !viewArchived) {
         // If archiving current active session, switch to another one
@@ -62,7 +62,7 @@ export default function Chat() {
     if (!deletingSessionId) return;
 
     try {
-      await axios.delete(`http://localhost:3000/api/chat/sessions/${deletingSessionId}`);
+      await axios.delete(`/api/chat/sessions/${deletingSessionId}`);
       
       const remaining = sessions.filter(s => s.id !== deletingSessionId);
       setSessions(remaining); // Optimistic update
@@ -88,7 +88,7 @@ export default function Chat() {
       const savedSessionId = localStorage.getItem('chatSessionId');
       if (savedSessionId) {
         try {
-          const response = await axios.get(`http://localhost:3000/api/chat/sessions/${savedSessionId}`);
+          const response = await axios.get(`/api/chat/sessions/${savedSessionId}`);
           setSessionId(savedSessionId);
           if (response.data.history && response.data.history.length > 0) {
             setMessages(response.data.history);
@@ -107,7 +107,7 @@ export default function Chat() {
     }
 
     try {
-      const response = await axios.post('http://localhost:3000/api/chat/sessions');
+      const response = await axios.post('/api/chat/sessions');
       const newSessionId = response.data.sessionId;
       setSessionId(newSessionId);
       localStorage.setItem('chatSessionId', newSessionId);
@@ -123,7 +123,7 @@ export default function Chat() {
   const switchSession = async (id) => {
     if (id === sessionId) return;
     try {
-      const response = await axios.get(`http://localhost:3000/api/chat/sessions/${id}`);
+      const response = await axios.get(`/api/chat/sessions/${id}`);
       setSessionId(id);
       localStorage.setItem('chatSessionId', id);
       if (response.data.history && response.data.history.length > 0) {
@@ -146,7 +146,7 @@ export default function Chat() {
     // Fetch meetings for filter dropdown
     const fetchMeetings = async () => {
       try {
-        const response = await axios.get('http://localhost:3000/api/meetings');
+        const response = await axios.get('/api/meetings');
         setMeetings(response.data);
       } catch (err) {
         console.error('Failed to fetch meetings for filter:', err);
@@ -173,7 +173,7 @@ export default function Chat() {
     setLoading(true);
 
     try {
-      const response = await fetch('http://localhost:3000/api/chat', {
+      const response = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

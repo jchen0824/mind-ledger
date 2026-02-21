@@ -11,7 +11,7 @@ export default function MeetingDetail() {
   useEffect(() => {
     const fetchMeeting = async () => {
       try {
-        const response = await axios.get(`http://localhost:3000/api/meetings/${id}`);
+        const response = await axios.get(`/api/meetings/${id}`);
         setMeeting(response.data);
         setLoading(false);
       } catch (err) {

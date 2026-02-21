@@ -17,7 +17,7 @@ export default function MeetingInput() {
     setError(null);
 
     try {
-      const response = await axios.post('http://localhost:3000/api/meetings', {
+      const response = await axios.post('/api/meetings', {
         title,
         content
       });
