@@ -87,6 +87,10 @@ async function summarizeMeeting(content) {
 
   try {
     let result = await callMiniMax(messages);
+    
+    // Remove potential <think>...</think> blocks if the model outputs them
+    result = result.replace(/<think>[\s\S]*?<\/think>/g, '').trim();
+
     // Clean up markdown code blocks if present
     const jsonString = result.replace(/```json\n?|\n?```/g, '').trim();
     return JSON.parse(jsonString);
