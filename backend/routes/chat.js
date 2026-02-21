@@ -227,15 +227,21 @@ router.post('/', async (req, res) => {
       // Query specific meeting
       const meeting = meetings.find(m => m.id === meetingId);
       if (!meeting) {
-        return res.status(404).json({ error: 'Meeting not found' });
+        // Fallback: If meeting is not found (e.g. wiped from tmp), ignore meetingId and search globally
+        // Or we could return an error. For Vercel demo, falling back to global is safer.
+        console.warn(`Meeting ${meetingId} not found in current session. Falling back to global search.`);
+        // Proceed as if meetingId was null
+      } else {
+        // Use full content for single meeting context if available, or summary
+        context = {
+          title: meeting.title,
+          content: meeting.content,
+          summary: meeting.summary
+        };
       }
-      // Use full content for single meeting context if available, or summary
-      context = {
-        title: meeting.title,
-        content: meeting.content,
-        summary: meeting.summary
-      };
-    } else {
+    }
+    
+    if (!context) {
       // Query all meetings (knowledge base)
       // For MVP, we pass all summaries as context.
       // We map to a smaller structure to avoid token limits if possible
