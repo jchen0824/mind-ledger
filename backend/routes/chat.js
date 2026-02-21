@@ -5,8 +5,12 @@ const path = require('path');
 const { v4: uuidv4 } = require('uuid');
 const { askQuestion } = require('../services/llm');
 
-const DATA_FILE = path.join(__dirname, '../data/meetings.json');
-const SESSIONS_FILE = path.join(__dirname, '../data/sessions.json');
+// Vercel environment detection
+const isVercel = !!process.env.VERCEL;
+const DATA_DIR = isVercel ? '/tmp' : path.join(__dirname, '../data');
+
+const DATA_FILE = path.join(DATA_DIR, 'meetings.json');
+const SESSIONS_FILE = path.join(DATA_DIR, 'sessions.json');
 
 // Helper to read meetings
 async function readMeetings() {
@@ -17,7 +21,8 @@ async function readMeetings() {
     if (error.code === 'ENOENT') {
       return [];
     }
-    throw error;
+    console.error('Error reading meetings:', error);
+    return [];
   }
 }
 
@@ -30,13 +35,18 @@ async function readSessions() {
     if (error.code === 'ENOENT') {
       return {};
     }
+    console.error('Error reading sessions:', error);
     return {}; // Return empty object on error
   }
 }
 
 // Helper to write sessions
 async function writeSessions(sessions) {
-  await fs.writeFile(SESSIONS_FILE, JSON.stringify(sessions, null, 2));
+  try {
+    await fs.writeFile(SESSIONS_FILE, JSON.stringify(sessions, null, 2));
+  } catch (error) {
+    console.error('Error writing sessions:', error);
+  }
 }
 
 // Create a new session

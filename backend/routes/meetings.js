@@ -5,7 +5,16 @@ const path = require('path');
 const { v4: uuidv4 } = require('uuid');
 const { summarizeMeeting } = require('../services/llm');
 
-const DATA_FILE = path.join(__dirname, '../data/meetings.json');
+// Vercel environment detection
+const isVercel = !!process.env.VERCEL;
+const DATA_DIR = isVercel ? '/tmp' : path.join(__dirname, '../data');
+const DATA_FILE = path.join(DATA_DIR, 'meetings.json');
+
+// Ensure data directory exists (if not /tmp)
+if (!isVercel) {
+  // Check if directory exists, if not create it? 
+  // Usually exists in local dev.
+}
 
 // Helper to read/write JSON
 async function readMeetings() {
@@ -14,16 +23,28 @@ async function readMeetings() {
     return JSON.parse(data);
   } catch (error) {
     if (error.code === 'ENOENT') {
-      // If file doesn't exist, create it with empty array
-      await fs.writeFile(DATA_FILE, '[]', 'utf8');
+      // If file doesn't exist, try to create it with empty array
+      try {
+        await fs.writeFile(DATA_FILE, '[]', 'utf8');
+      } catch (writeError) {
+        console.error('Failed to initialize meetings file:', writeError);
+        // Fallback to empty array in memory if write fails (e.g. read-only fs)
+        return [];
+      }
       return [];
     }
-    throw error;
+    console.error('Error reading meetings:', error);
+    return []; // Return empty array on other errors to avoid crash
   }
 }
 
 async function writeMeetings(meetings) {
-  await fs.writeFile(DATA_FILE, JSON.stringify(meetings, null, 2), 'utf8');
+  try {
+    await fs.writeFile(DATA_FILE, JSON.stringify(meetings, null, 2), 'utf8');
+  } catch (error) {
+    console.error('Error writing meetings:', error);
+    // Don't throw, just log. Data won't persist but app won't crash.
+  }
 }
 
 // POST /api/meetings - Create meeting and summarize
